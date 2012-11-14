@@ -62,10 +62,10 @@ public:
 
 protected:
    // cast operators
-   operator S&() 
-      { return static_cast<S&>(*this); }
-   operator S const&() const 
-      { return static_cast<const S&>(*this); }
+//   operator S&()
+//      { return static_cast<S&>(*this); }
+//   operator S const&() const
+//      { return static_cast<const S&>(*this); }
 
    template <class LIST>
    bool shortestPath(const size_t, const size_t, LIST&, const LIST& = LIST()) const;
