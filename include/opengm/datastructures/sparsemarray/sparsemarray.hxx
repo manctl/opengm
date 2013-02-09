@@ -3552,7 +3552,7 @@ int read=array4d(4,11,5,8); //read access
       }
 
       sparse_array_iterator & operator--() {
-         this.index--;
+         this->index--;
          return *this;
       }
 
@@ -3643,7 +3643,7 @@ int read=array4d(4,11,5,8); //read access
       }
 
       sparse_array_iterator & operator--() {
-         this.index--;
+         this->index--;
          return *this;
       }
 
